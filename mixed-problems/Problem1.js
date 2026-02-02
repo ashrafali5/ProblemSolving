@@ -13,7 +13,7 @@ Example:
 maxNumber([3, 7, 2, 9, 4])  // Output: 9
 */
 
-function MaxNum(arr) {
+function maxNum(arr) {
   let max = arr[0];
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] > max) {
@@ -22,4 +22,4 @@ function MaxNum(arr) {
   }
   return max;
 }
-console.log(MaxNum([12, 43, 53, 23, 43, 54]));
+console.log(maxNum([12, 43, 53, 23, 43, 54]));

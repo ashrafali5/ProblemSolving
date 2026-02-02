@@ -13,7 +13,7 @@ Example:
 countEven([1, 2, 3, 4, 6])  // Output: 3
 */
 
-function TotalEvenNum(arr) {
+function totalEvenNum(arr) {
   let countEven = 0;
   for (let i = 0; i <= arr.length - 1; i++) {
     if (arr[i] % 2 === 0) {
@@ -22,4 +22,4 @@ function TotalEvenNum(arr) {
   }
   return countEven;
 }
-console.log(TotalEvenNum([4, 3, 6, 8, 12, 16, 17]));
+console.log(totalEvenNum([4, 3, 6, 8, 12, 16, 17]));
